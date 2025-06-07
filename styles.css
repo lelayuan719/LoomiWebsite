@@ -327,12 +327,17 @@
     flex-direction: row;
     align-items: center;
     display: flex;
-    gap: 370px;
+    gap: 100px;
 }
-.remakrt-text {
+.remark-text {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     display: flex;
+    height: 460px;
+    width: 460px;
+    border-radius: 50px;
+    background-color: #0097A761;
 }
 .i-love-loomi {
     margin: 0;
@@ -345,7 +350,6 @@
     color: #fff;
     text-align: center;
     display: inline-block;
-    height: 245px;
 }
 
 .logo-bottom-title {
@@ -1107,9 +1111,9 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    background-image: url('assets/background.png');
-    background-size:contain; /* Scale to cover viewport */
-    background-position: center; /* Center the image */
+    background-image: url('assets/background3.png');
+    background-size:cover; /* Scale to cover viewport */
+    background-position:top; /* Center the image */
     background-repeat: no-repeat; /* Prevent tiling */
     background-attachment: scroll; /* Anchor to viewport */
     background-color: #013E44;
