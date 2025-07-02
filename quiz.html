@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loomi - Onboarding Quiz</title>
+    <link rel="stylesheet"  href="quiz.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Product Sans Light:wght@400&display=swap" />
+    <script src="quiz.js"></script>
+</head>
+<body>
+    <div class="logotype">
+        <div class="loomi">
+            <span style=>L</span>
+            <span class="oo">o</span>
+            <span class="oo">o</span>
+            <span>m</span>
+            <span class="oo">i</span>
+            <img class="whale-logo" alt="" src="assets/whale-logo.png">
+        </div>
+    </div>
+    <div class="quiz-container">
+            
+        <section id="q1" class="question-section active">
+            
+            <div class="question-row">
+                <img class="whale-image" alt="" src="assets/whale.png">
+                <div class="question-container">
+                    <div class="question-box">
+                        <img alt="" src="assets/question-box.png">
+                        <div class="question-text">Help me understand what languages you speak</div>
+                    </div>
+                    
+                    <div class="question1">
+                        <div class="i-speak-parent">
+                            <div class="i-speak">I speak</div>
+                            <div class="frame-child"></div>
+                        </div>
+                        <button class="dropdown-btn">
+                            Choose a language you speak
+                            <img class="caret-down" alt="" src="assets/caret_down.svg">
+                        </button>
+                        <div class="dropdown-menu">
+                            <input type="text" class="search-bar" placeholder="Search languages...">
+                            <ul class="option-list">
+                                <li data-value="spanish">
+                                    <img class="check-square" alt="" src="assets/check-square.svg">
+                                    <img class="india-icon" alt="" src="assets/india-icon.png">
+                                    Spanish
+                                </li>
+                                <li data-value="spanish">
+                                    <img class="check-square" alt="" src="assets/check-square.svg">
+                                    <img class="india-icon" alt="" src="assets/india-icon.png">
+                                    French
+                                </li>
+                                <li data-value="spanish">
+                                    <img class="check-square" alt="" src="assets/check-square.svg">
+                                    <img class="india-icon" alt="" src="assets/india-icon.png">
+                                    German
+                                </li>
+                                <li data-value="spanish">
+                                    <img class="check-square" alt="" src="assets/check-square.svg">
+                                    <img class="india-icon" alt="" src="assets/india-icon.png">
+                                    Italian
+                                </li>
+                                <li data-value="spanish">
+                                    <img class="check-square" alt="" src="assets/check-square.svg">
+                                    <img class="india-icon" alt="" src="assets/india-icon.png">
+                                    Portuguese
+                                </li>
+                                <li data-value="spanish">
+                                    <img class="check-square" alt="" src="assets/check-square.svg">
+                                    <img class="india-icon" alt="" src="assets/india-icon.png">
+                                    Japanese
+                                </li>
+                                <li data-value="spanish">
+                                    <img class="check-square" alt="" src="assets/check-square.svg">
+                                    <img class="india-icon" alt="" src="assets/india-icon.png">
+                                    Chinese
+                                </li>
+                                <li data-value="spanish">
+                                    <img class="check-square" alt="" src="assets/check-square.svg">
+                                    <img class="india-icon" alt="" src="assets/india-icon.png">
+                                    Russian
+                                </li>
+                            </ul>
+                        </div>
+                        <button id="next-btn">
+                            <img alt="" src="assets/arrow-right.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="q2" class="question-section">
+            <div class="question-row">
+                <img class="whale-image" alt="" src="assets/whale.png">
+                <div class="question-container">
+                    <div class="question-box">
+                        <img alt="" src="assets/question-box.png">
+                        <div class="question-text">What language(s?) do you want to learn with Loomi! </div>
+                    </div>
+                    
+                    <div class="question2">
+                        <div class="progress-bar-row">
+                            <button id="back-btn">
+                                <img alt="" src="assets/arrow-left.svg">
+                            </button>
+                            <div class="gray-progress-bar"></div>
+                            <div class="gray-progress-bar"></div>
+                            <div class="gray-progress-bar"></div>
+                        </div>
+                        <div class="learning-language-row">
+                            <button class="learning-language-box">
+                                <img class="learning-language-flag" alt="" src="assets/spanish-flag.png">
+                                <p class="learning-language-title">Spanish</p>
+                                <p class="learning-language-number">1,000,000</p>
+                                <p class="learning-language-words">words</p>
+                            </button>
+                            <button class="learning-language-box">
+                                <img class="learning-language-flag" alt="" src="assets/german-flag.png">
+                                <p class="learning-language-title">German</p>
+                                <p class="learning-language-number">1,000,000</p>
+                                <p class="learning-language-words">words</p>
+                            </button>
+                            <button class="learning-language-box">
+                                <img class="learning-language-flag" alt="" src="assets/korea-flag.png">
+                                <p class="learning-language-title">Korean</p>
+                                <p class="learning-language-number">1,000,000</p>
+                                <p class="learning-language-words">words</p>
+                            </button>
+                            <button class="learning-language-box">
+                                <img class="learning-language-flag" alt="" src="assets/french-flag.png">
+                                <p class="learning-language-title">French</p>
+                                <p class="learning-language-number">1,000,000</p>
+                                <p class="learning-language-words">words</p>
+                            </button>
+                            <button class="learning-language-box">
+                                <img class="learning-language-flag" alt="" src="assets/italian-flag.png">
+                                <p class="learning-language-title">Italian</p>
+                                <p class="learning-language-number">1,000,000</p>
+                                <p class="learning-language-words">words</p>
+                            </button>
+                        </div>
+                        <div class="learning-language-row">
+                            <button class="learning-language-box">
+                                <img class="learning-language-flag" alt="" src="assets/chinese-flag.png">
+                                <p class="learning-language-title">Chinese</p>
+                                <p class="learning-language-number">1,000,000</p>
+                                <p class="learning-language-words">words</p>
+                            </button>
+                            <button class="learning-language-box">
+                                <img class="learning-language-flag" alt="" src="assets/gujarati-flag.png">
+                                <p class="learning-language-title">Gujarati</p>
+                                <p class="learning-language-number">1,000,000</p>
+                                <p class="learning-language-words">words</p>
+                            </button>
+                            <button class="learning-language-box">
+                                <img class="learning-language-flag" alt="" src="assets/vietnamese-flag.png">
+                                <p class="learning-language-title">Vietnamese</p>
+                                <p class="learning-language-number">1,000,000</p>
+                                <p class="learning-language-words">words</p>
+                            </button>
+                            <button class="learning-language-box">
+                                <img class="learning-language-flag" alt="" src="assets/japanese-flag.png">
+                                <p class="learning-language-title">Japanese</p>
+                                <p class="learning-language-number">1,000,000</p>
+                                <p class="learning-language-words">words</p>
+                            </button>
+                        </div>
+                       
+                        <button id="next-btn">
+                            <img alt="" src="assets/arrow-right.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="q3" class="question-section">
+            <div class="question-row">
+                <img class="whale-image" alt="" src="assets/whale.png">
+                <div class="question-container">
+                    <div class="question-box">
+                        <img alt="" src="assets/question-box.png">
+                        <div class="question-text">Why are you learning Spanish ? </div>
+                    </div>
+                    
+                    <div class="question2">
+                        <div class="progress-bar-row">
+                            <button id="back-btn">
+                                <img alt="" src="assets/arrow-left.svg">
+                            </button>
+                            <div class="blue-progress-bar"></div>
+                            <div class="gray-progress-bar"></div>
+                            <div class="gray-progress-bar"></div>
+                        </div>
+                        <div class="learning-reason-container">
+                            <div class="learning-reason-column">
+                                <button class="learning-reason-box">
+                                    <img class="learning-reason-logo"alt="" src="assets/fun-logo.png">
+                                    <p class="learning-reason-text">Just for fun</p>
+                                </button>
+                                <button class="learning-reason-box">
+                                    <img class="learning-reason-logo"alt="" src="assets/education-logo.png">
+                                    <p class="learning-reason-text">To support my education</p>
+                                </button>
+                                <button class="learning-reason-box">
+                                    <img class="learning-reason-logo"alt="" src="assets/travel-logo.png">
+                                    <p class="learning-reason-text">To prepare for travel</p>
+                                </button>
+                                <button class="learning-reason-box">
+                                    <img class="learning-reason-logo"alt="" src="assets/other-logo.png">
+                                    <p class="learning-reason-text">Other</p>
+                                </button>
+                            </div>
+                            <div class="learning-reason-column">
+                                <button class="learning-reason-box">
+                                    <img class="learning-reason-logo"alt="" src="assets/development-logo.png">
+                                    <p class="learning-reason-text">Personal development</p>
+                                </button>
+                                <button class="learning-reason-box">
+                                    <img class="learning-reason-logo"alt="" src="assets/connect-logo.png">
+                                    <p class="learning-reason-text">To connect with people</p>
+                                </button>
+                                <button class="learning-reason-box">
+                                    <img class="learning-reason-logo"alt="" src="assets/career-logo.png">
+                                    <p class="learning-reason-text">I need for my career</p>
+                                </button>
+                            </div>
+                        </div>
+                        <button id="next-btn">
+                            <img alt="" src="assets/arrow-right.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="q4" class="question-section">
+            <div class="question-row">
+                <img class="whale-image" alt="" src="assets/whale.png">
+                <div class="question-container">
+                    <div class="question-box">
+                        <img alt="" src="assets/question-box.png">
+                        <div class="question-text">How much Spanish do you know ? </div>
+                    </div>
+                    
+                    <div class="question2">
+                        <div class="progress-bar-row">
+                            <button id="back-btn">
+                                <img alt="" src="assets/arrow-left.svg">
+                            </button>
+                            <div class="blue-progress-bar"></div>
+                            <div class="blue-progress-bar"></div>
+                            <div class="gray-progress-bar"></div>
+                        </div>
+                        <div class="learning-level-column">
+                            <button class="learning-level-box">
+                                <img class="learning-level-logo"alt="" src="assets/fun-logo.png">
+                                <p class="learning-level-text">I'm new to Korean</p>
+                            </button>
+                            <button class="learning-level-box">
+                                <img class="learning-level-logo"alt="" src="assets/education-logo.png">
+                                <p class="learning-level-text">I know some common words</p>
+                            </button>
+                            <button class="learning-level-box">
+                                <img class="learning-level-logo"alt="" src="assets/travel-logo.png">
+                                <p class="learning-level-text">I can have basic conversations</p>
+                            </button>
+                            <button class="learning-level-box">
+                                <img class="learning-level-logo"alt="" src="assets/other-logo.png">
+                                <p class="learning-level-text">I can talk about various topics</p>
+                            </button>
+                            <button class="learning-level-box">
+                                <img class="learning-level-logo"alt="" src="assets/other-logo.png">
+                                <p class="learning-level-text">I can discuss most topics in detail</p>
+                            </button>
+                        </div>
+                        <button id="next-btn">
+                            <img alt="" src="assets/arrow-right.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="q5" class="question-section">
+            <div class="question-row">
+                <img class="whale-image" alt="" src="assets/whale.png">
+                <div class="question-container">
+                    <div class="question-box">
+                        <img alt="" src="assets/question-box.png">
+                        <div class="question-text">How did you hear about Loomi ? </div>
+                    </div>
+                    
+                    <div class="question2">
+                        <div class="progress-bar-row">
+                            <button id="back-btn">
+                                <img alt="" src="assets/arrow-left.svg">
+                            </button>
+                            <div class="blue-progress-bar"></div>
+                            <div class="blue-progress-bar"></div>
+                            <div class="blue-progress-bar"></div>
+                        </div>
+                        <div class="hear-container">
+                            <div class="hear-column">
+                                <button class="hear-box">
+                                    <img class="hear-logo"alt="" src="assets/google-logo.png">
+                                    <p class="hear-text">Google search</p>
+                                </button>
+                                <button class="hear-box">
+                                    <img class="hear-logo"alt="" src="assets/tiktok-logo.png">
+                                    <p class="hear-text">TikTok</p>
+                                </button>
+                                <button class="hear-box">
+                                    <img class="hear-logo"alt="" src="assets/youtube-logo.png">
+                                    <p class="hear-text">YouTube</p>
+                                </button>
+                                <button class="hear-box">
+                                    <img class="hear-logo"alt="" src="assets/linkedin-logo.png">
+                                    <p class="hear-text">LinkedIn</p>
+                                </button>
+                            </div>
+                            <div class="hear-column">
+                                <button class="hear-box">
+                                    <img class="hear-logo"alt="" src="assets/family-logo.png">
+                                    <p class="hear-text">Friends/Family</p>
+                                </button>
+                                <button class="hear-box">
+                                    <img class="hear-logo"alt="" src="assets/facebook-logo.png">
+                                    <p class="hear-text">Facebook/Instagram</p>
+                                </button>
+                                <button class="hear-box">
+                                    <img class="hear-logo"alt="" src="assets/news-logo.png">
+                                    <p class="hear-text">News/Article/Blog</p>
+                                </button>
+                                <button class="hear-box">
+                                    <img class="hear-logo"alt="" src="assets/other-logo.png">
+                                    <p class="hear-text">Others</p>
+                                </button>
+                            </div>
+                        </div>
+                        <button id="submit-btn">
+                            <img alt="" src="assets/arrow-right.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
