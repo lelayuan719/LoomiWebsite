@@ -103,6 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const learningReasonBoxes = document.querySelectorAll('.learning-reason-box');
     const learningLevelBoxes = document.querySelectorAll('.learning-level-box');
     const hearBoxes = document.querySelectorAll('.hear-box');
+    const languagePlaceholder = document.querySelector('.question-box .language-placeholder');
+
 
     if (dropdownBtn) {
         dropdownBtn.addEventListener('click', (e) => {
@@ -125,6 +127,13 @@ document.addEventListener('DOMContentLoaded', () => {
     optionList.forEach(option => {
         option.addEventListener('click', () => {
             option.classList.toggle('selected');
+            const checkImage = option.querySelector('.check-square');
+            if (option.classList.contains('selected')) {
+                checkImage.src = 'assets/check-square.svg';
+            } else {
+                checkImage.src = 'assets/uncheck-square.svg';
+            }
+    
             const selectedOptions = Array.from(document.querySelectorAll('.option-list li.selected'))
                 .map(opt => opt.textContent.trim());
             if (selectedOptions.length === 0) {
@@ -151,6 +160,9 @@ document.addEventListener('DOMContentLoaded', () => {
         box.addEventListener('click', () => {
             box.classList.toggle('selected');
             saveAnswer();
+            if (answers['q2']) {
+                languagePlaceholder.textContent = answers['q2'][0];
+            }
         });
     });
 
