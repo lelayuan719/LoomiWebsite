@@ -77,7 +77,8 @@ body {
     width: 495px;
     font-size: 32px;
     line-height: 136.5%;
-    font-family: 'Product Sans Light';
+    font-family: Roboto;
+    font-weight: lighter;
     color: #000;
     
 }
@@ -247,6 +248,48 @@ body {
 }
 .india-icon {
     margin-right: 15px;
+}
+.german-icon {
+    margin-left: -12px;
+    margin-right: 12px;
+    width: 73px;
+    height: 63px;
+    object-fit: contain;
+}
+.italy-icon {
+    margin-left: -3px;
+    margin-right: 22px;
+    width: 55px;
+    height: 45px;
+    object-fit: contain;
+}
+.portugal-icon {
+    margin-left: -3px;
+    margin-right: 22px;
+    width: 55px;
+    height: 45px;
+    object-fit: contain;
+}
+.japan-icon {
+    margin-left: -11px;
+    margin-right: 16px;
+    width: 70px;
+    height: 60px;
+    object-fit: contain;
+}
+.china-icon {
+    margin-left: -9px;
+    margin-right: 16px;
+    width: 65px;
+    height: 52px;
+    object-fit: contain;
+}
+.russia-icon {
+    margin-left: -8px;
+    margin-right: 16px;
+    width: 66px;
+    height: 49px;
+    object-fit: contain;
 }
 #next-btn {
     border-radius: 100px;
