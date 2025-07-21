@@ -181,29 +181,33 @@ body {
 
 .youve-tried-the-container {
     width: 100%;
-    max-width: 850px;
-    font-size: clamp(1.2rem, 3vw, 1.875rem);
+    font-size: 56px;
+    line-height: 40px;
+    font-family: 'SF Compact';
     font-weight: 600;
-    font-family: Inter;
     color: #f9f9f9;
     text-align: center;
     margin-bottom: 40px;
-    line-height: 1.2;
+    margin-top: 80px;
 }
 
 .youre-not-alone-container {
     width: 100%;
-    max-width: 750px;
-    font-size: clamp(1rem, 3vw, 1.5rem);
+    max-width: 850px;
+    font-size: 30px;
     text-align: center;
-    color: #79bfc6;
+    color: #fff;
     font-family: Inter;
-    line-height: 1.4;
+    line-height: 40px;
 }
 
 .youre-not-alone {
-    font-weight: 600;
-    color: #f9f9f9;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'SF Compact';
+    color: #fff;
+    text-align: center;
+    display: inline-block;
 }
 
 .traditional-methods-dont {
@@ -233,11 +237,11 @@ body {
 }
 
 .thats-why-we {
-    margin-top: clamp(100px, 40vh, 150px);
-    margin-left: clamp(200px, 15vh, 250px);
+    margin-top: 80px;
     width: 100%;
-    max-width: 691px;
-    font-size: clamp(1.8rem, 4.5vw, 2.2rem);
+    max-width: 900px;
+    font-size: 42px;
+    line-height: 130%;
     font-weight: 600;
     font-family: Inter;
     color: #f9f9f9;
@@ -246,12 +250,11 @@ body {
 }
 
 .together-we-can-container {
-    margin-left: clamp(200px, 15vh, 250px);
     width: 100%;
     max-width: 765px;
-    font-size: clamp(1.2rem, 3vw, 1.75rem);
+    font-size: 30px;
     text-align: center;
-    color: #f9f9f9;
+    color: #fff;
     font-family: Inter;
     line-height: 1.4;
 }
