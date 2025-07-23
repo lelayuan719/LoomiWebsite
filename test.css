@@ -15,7 +15,7 @@ body {
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-color: #013E44;
+    background-color: #F4E4BC;
     font-family: Inter, sans-serif;
 }
 
@@ -114,6 +114,7 @@ body {
    font-size: 45px;
    font-style: normal;
    font-weight: 700;
+   margin-top: 200px;
    
 }
 .buttons1 {
@@ -157,10 +158,18 @@ body {
     max-width: 907px;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
     font-weight: 600;
-    color: #a1a1a1;
+    color: #767676;
     text-align: center;
     line-height: 1.4;
     margin-bottom: 30px;
+}
+.flip-flop {
+    height: 125px;
+    object-fit: cover;
+    margin-top: 150px;
+}
+.demo-video {
+    margin-top: 100px;
 }
 
 .buttons1:hover {
@@ -244,7 +253,7 @@ body {
     line-height: 130%;
     font-weight: 600;
     font-family: Inter;
-    color: #f9f9f9;
+    color: #03454a;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -254,7 +263,7 @@ body {
     max-width: 765px;
     font-size: 30px;
     text-align: center;
-    color: #fff;
+    color: #444;
     font-family: Inter;
     line-height: 1.4;
 }
