@@ -117,6 +117,28 @@ body {
    margin-top: 200px;
    
 }
+.ive-tried-container {
+    height: 81px;
+    width: 600px;
+    border-radius: 107px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #0081A8;
+    font-size: 22px;
+    line-height: 29.34px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #fff;
+    margin-top: 100px;
+}
+.words-icon-container {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    margin-top: 150px;
+}
 .buttons1 {
     width: 300px;
     position: relative;
@@ -200,24 +222,6 @@ body {
     margin-top: 80px;
 }
 
-.youre-not-alone-container {
-    width: 100%;
-    max-width: 850px;
-    font-size: 30px;
-    text-align: center;
-    color: #fff;
-    font-family: Inter;
-    line-height: 40px;
-}
-
-.youre-not-alone {
-    font-size: 30px;
-    line-height: 40px;
-    font-family: 'SF Compact';
-    color: #fff;
-    text-align: center;
-    display: inline-block;
-}
 
 .traditional-methods-dont {
     font-weight: 900;
@@ -247,6 +251,18 @@ body {
 
 .thats-why-we {
     margin-top: 80px;
+    width: 100%;
+    max-width: 900px;
+    font-size: 42px;
+    line-height: 130%;
+    font-weight: 600;
+    font-family: Inter;
+    color: #03454a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.youre-not-alone {
+    margin-top: 300px;
     width: 100%;
     max-width: 900px;
     font-size: 42px;
