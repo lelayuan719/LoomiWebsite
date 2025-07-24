@@ -23,7 +23,7 @@ body {
 .desktop-1 {
     width: 100%;
     position: relative;
-    min-height: 9500px;
+    min-height: 10000px;
     padding-bottom: 100px;
     text-align: left;
     font-size: 24px;
@@ -67,21 +67,23 @@ body {
     height: clamp(16px, 3vw, 24px);/*added*/
 }
 .button {
-    position: relative;
+    font-size: 17px;
     line-height: 140%;
     font-weight: 600;
-    white-space: pre-wrap;
+    font-family: 'DM Sans';
+    color: #fff;
 }
 .buttons {
-    border-radius: 4px;
-    background-color: #000;
+    border-radius: 8px;
+    background-color: #01AFBA;
     /* width: 175px; */
-    width: clamp(120px, 20vw, 175px);/*added*/
+    width: clamp(150px, 20vw, 200px);/*added*/
     overflow: hidden;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 50px;
     padding: 8px 16px;
     /* box-sizing: border-box; */
     gap: 8px;
@@ -89,7 +91,11 @@ body {
     color: #fff;
 }
 
-
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .let-new-language-parent {
     /* margin-top: 300px; */
     display: flex;
@@ -198,6 +204,79 @@ body {
     background-color: #ff9540;
 }
 
+.to-make-the-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: clamp(100px, 15vh, 200px) 20px;
+    max-width: 1500px;
+    margin-top: 650px;
+}
+.to-make-the {
+    position: relative;
+    font-size: 56px;
+    line-height: 56px;
+    font-family: Inter;
+    background: radial-gradient(50% 50% at 50% 50%, #e3e3e3, #e6fbfd 46.87%, #adeaf0 96.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.loomi-inner-text {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.two-combination {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: -60px;
+}
+.combo-box {
+    background-color: #44757b;
+    border-radius: 20px;
+    width: 464px;
+    height: 260px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    font-size: 22px;
+    line-height: 130%;
+    font-weight: 500;
+    color: #fff;
+    box-sizing: border-box;
+    object-fit: cover;
+    overflow: object-fit;
+}
+.combo-pic {
+    border-radius: 8px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.plus-sign {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 500;
+}
+.grounded-in-cognitive {
+    margin: 0;
+}
+.grounded-in-cognitive-container {
+    width: 1068px;
+    position: relative;
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-family: Inter;
+    margin-top: 130px;
+}
+
 .weave-language-learning-container {
     display: flex;
     flex-direction: column;
@@ -283,6 +362,27 @@ body {
     font-family: Inter;
     line-height: 1.4;
 }
+.buttons2 {
+    width: 300px;
+    position: relative;
+    box-shadow: -3px 3px 4px #fcedd1;
+    border-radius: 8px;
+    background-color: #ffa557;
+    border: 2px solid #fdd9b7;
+    box-sizing: border-box;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    gap: 8px;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'DM Sans';
+    margin-top: 100px;
+}
 
 .natural-part-of {
     font-weight: 800;
@@ -355,6 +455,39 @@ body {
     border-radius: 12px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
+.bubble {
+    flex: 1;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+
+}
+
+.let-loomi-swim {
+    width: 100%;
+    position: relative;
+    font-size: 56px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: Inter;
+    color: #325b77;
+    text-align: center;
+    display: inline-block;
+    margin-top: 650px;
+}
+.transform-your-everyday {
+    width: 870px;
+    position: relative;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: Inter;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+}
+
 
 /* TESTIMONIALS SECTION */
 .real-learner-container {
@@ -416,9 +549,13 @@ body {
 /* FOOTER */
 .logo-bottom-title {
     position: absolute;
-    left: clamp(20px, 5vw, 80px);
+    left: clamp(20px, 5vw, 40px);
     bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
 
 .loomi {
     font-size: clamp(1.5rem, 4vw, 2rem);
@@ -436,7 +573,7 @@ body {
 .rights {
     font-size: clamp(1rem, 2.5vw, 1.56rem);
     font-family: Inter;
-    color: #fff;
+    color: #FB945D;
     text-align: right;
 }
 
@@ -497,6 +634,10 @@ body {
     .logo-bottom-title {
         left: 15px;
         bottom: 15px;
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
     
     .bottom-rights {
